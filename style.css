@@ -1,0 +1,90 @@
+.container{
+    border: 1px solid white;
+    width: 80px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    transform: translate(100%);
+    margin-bottom: 20px;
+    background-color: #00c5ff;
+}   
+
+.container div{
+    width: 33%;
+    height: 21px;
+}
+
+.container .special{
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+button {
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005ecb;
+}
+
+.luck-heading {
+  font-size: 2rem;
+  color: #ffffff;
+  background: linear-gradient(90deg, #5bc0de, #48b4e0);
+  padding: 10px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(72, 180, 224, 0.4);
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.luck-heading:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(72, 180, 224, 0.6);
+}
+
+
+
+
